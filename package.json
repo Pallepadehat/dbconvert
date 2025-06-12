@@ -1,0 +1,16 @@
+{
+  "name": "dbconvert",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "mysql2": "^3.14.1",
+    "sqlite3": "^5.1.7"
+  }
+}
